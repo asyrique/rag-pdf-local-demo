@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "rag-pdf-local"
+version = "0.1.0"
+description = "RAG Q&A with Langchain and Streamlit"
+authors = ["Asyrique Thevendran <asyrique@vase.ai>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.31.1"
+langchain = "^0.1.8"
+langchain-community = "^0.0.21"
+langchainhub = "^0.1.14"
+langchain-openai = "^0.0.6"
+chromadb = "^0.4.22"
+bs4 = "^0.0.2"
+gpt4all = "^2.2.1.post1"
+pypdf2 = "^3.0.1"
+sentence-transformers = "^2.3.1"
+faiss-cpu = "^1.7.4"
+pymupdf = "^1.23.25"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
